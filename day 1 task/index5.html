@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!doctype html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <title>Learning Web Development - Outline</title>
+      <style>
+       
+        :root{
+          --page-width: 900px;
+          --gutter: 40px;
+          --base-font: "Times New Roman", Georgia, serif;
+        }
+    
+        body{
+          font-family: var(--base-font);
+          margin: 40px;
+          display: flex;
+          justify-content: center;
+          background: #fff;
+          color: #111;
+        }
+    
+        .page{
+          width: var(--page-width);
+        }
+    
+        
+        .title{
+          font-size: 56px;
+          font-weight: 700;
+          margin: 0 0 18px 0;
+          line-height: 1;
+        }
+    
+        ol {
+          margin: 0 0 12px 0;
+          padding-left: 1.25em;           
+    
+        li {
+          margin: 6px 0;
+          font-size: 20px;
+          line-height: 1.35;
+        }
+    
+     
+        ol.top {
+          list-style-type: upper-roman;
+          margin-left: 0;
+          padding-left: 2.2em; 
+        }
+    
+        ol.top > li > ol {
+          list-style-type: upper-alpha;
+          padding-left: 1.2em;
+          margin-top: 6px;
+        }
+    
+        ol.top > li > ol > li > ol {
+          list-style-type: lower-roman;
+          padding-left: 1.1em;
+          margin-top: 4px;
+          font-size: 18px;
+        }
+    
+        ol.top > li > ol > li > ol > li > ol {
+          list-style-type: decimal;
+          padding-left: 1em;
+          font-size: 17px;
+        }
+    
+       
+        li > p { margin: 0; display: inline; }
+    
+        
+        .section-label {
+          font-weight: 600;
+        }
+    
+        
+        .page-content {
+          margin-left: 6px;
+        }
+    
+        
+        @media (max-width: 640px){
+          .title { font-size: 36px; }
+          li { font-size: 16px; }
+          .page { padding: 0 12px; }
+        }
+      </style>
+    </head>
+    <body>
+      <div class="page" role="document" aria-label="Learning web development outline">
+        <h1 class="title">Learning Web Development</h1>
+    
+        <div class="page-content">
+          <ol class="top">
+            <li>
+              <span class="section-label">Background Skills</span>
+              <ol>
+                <li>Unix Commands</li>
+                <li>Vim Text Editor</li>
+              </ol>
+            </li>
+    
+            <li>
+              <span class="section-label">HTML</span>
+              <ol>
+                <li>Minimal Page</li>
+                <li>Headings</li>
+                <li>Tags</li>
+                <li>
+                  Lists
+                  <ol>
+                    <li>Unordered</li>
+                    <li>Ordered</li>
+                    <li>Definition</li>
+                    <li>Nested</li>
+                  </ol>
+                </li>
+                <li>
+                  Links
+                  <ol>
+                    <li>Absolute</li>
+                    <li>Relative</li>
+                  </ol>
+                </li>
+                <li>Images</li>
+              </ol>
+            </li>
+    
+            <li>
+              <span class="section-label">CSS</span>
+              <ol>
+                <li>Anatomy</li>
+                <li>
+                  Basic Selectors
+                  <ol>
+                    <li>Element</li>
+                    <li>Class</li>
+                    <li>ID</li>
+                    <li>Group</li>
+                  </ol>
+                </li>
+                <li>The DOM</li>
+                <li>Advanced Selectors</li>
+                <li>Box Model</li>
+              </ol>
+            </li>
+    
+            <li>
+              <span class="section-label">Programming</span>
+              <ol>
+                <li>Python</li>
+                <li>JavaScript</li>
+              </ol>
+            </li>
+    
+            <li>
+              <span class="section-label">Database</span>
+              <ol>
+                <li>Flat File</li>
+                <li>Relational</li>
+              </ol>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </body>
+    </html> 
+</body>
+</html>
