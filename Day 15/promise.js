@@ -1,6 +1,6 @@
-console.log("Today we are going to learn js promise")
+// console.log("Today we are going to learn js promise")
 
-//keyboard events
+// keyboard events
 // document.addEventListener("keydown",(e)=>{
 //     console.log(e.key)
 //     console.log(e.code)
@@ -46,11 +46,11 @@ console.log("Today we are going to learn js promise")
 //     console.log("submit")
 // })
 
-// //window events
-window.addEventListener("load",(e)=>{
-    console.log(e)
-    console.log("load")
-})
+// // //window events
+// window.addEventListener("load",(e)=>{
+//     console.log(e)
+//     console.log("load")
+// })
 
 // window.addEventListener("DOMContentLoaded",()=>{
 //     console.log(" dom load")
